@@ -259,7 +259,7 @@ for more information.
 .. raw:: html
 
    <p align="center">
-   <img src="./_static/counter_32.png" width="50%" height="50%">
+   <img src="./docs/source/_static/counter_32.png" width="50%" height="50%">
    </p>
 
 .. raw:: html
@@ -275,7 +275,7 @@ The caravel layout is pre-designed with an empty golden wrapper in the user spac
 .. raw:: html
 
    <p align="center">
-   <img src="./_static/layout.png" width="80%" height="80%">
+   <img src="./docs/source/_static/layout.png" width="80%" height="80%">
    </p>
    
 To make sure that this integration process goes smoothly without having any DRC or LVS issues, your hardened ``user_project_wrapper`` must adhere to a number of requirements listed at `User Project Wrapper Requirements <#user-project-wrapper-requirements>`__ .
@@ -347,7 +347,7 @@ Your hardened ``user_project_wrapper`` must match the `golden user_project_wrapp
 .. raw:: html
 
    <p align="center">
-   <img src="./_static/empty.png" width="40%" height="40%">
+   <img src="./docs/source/_static/empty.png" width="40%" height="40%">
    </p>
  
 You are allowed to change the following if you need to: 
@@ -357,7 +357,7 @@ You are allowed to change the following if you need to:
 .. raw:: html
 
    <p align="center">
-   <img src="./_static/pitch.png" width="30%" height="30%">
+   <img src="./docs/source/_static/pitch.png" width="30%" height="30%">
    </p>
  
 To make sure that you adhere to these requirements, we run an exclusive-or (XOR) check between your hardened ``user_project_wrapper`` GDS and the golden wrapper GDS after processing both layouts to include only the boundary (pins and core rings). This check is done as part of the `mpw-precheck <https://github.com/efabless/mpw_precheck>`__ tool. 
@@ -408,13 +408,13 @@ openlane:
 .. |link2| replace:: `caravel_ibex <https://github.com/efabless/caravel_ibex>`__
 
 
-.. |pic1| image:: ./_static/option1.png
+.. |pic1| image:: ./docs/source/_static/option1.png
    :width: 48%
 
-.. |pic2| image:: ./_static/option2.png
+.. |pic2| image:: ./docs/source/_static/option2.png
    :width: 140%
 
-.. |pic3| image:: ./_static/option3.png
+.. |pic3| image:: ./docs/source/_static/option3.png
    :width: 72%
 
 For more details on hardening macros using openlane, refer to `README <https://github.com/The-OpenROAD-Project/OpenLane/blob/master/docs/source/hardening_macros.md>`__.
@@ -430,7 +430,7 @@ wrapper without having any standard cells on the top level.
 .. raw:: html
 
    <p align="center">
-   <img src="./_static/wrapper.png" width="30%" height="30%">
+   <img src="./docs/source/_static/wrapper.png" width="30%" height="30%">
    </p>
 
 .. raw:: html
