@@ -20,12 +20,8 @@
 
 .. include:: ../../README.rst
 
-.. include:: ../../example-inclusion.rstinc
-
 Caravel User Project
 ====================
-
-|License| |User CI| |Caravel Build|
 
 Table of contents
 =================
