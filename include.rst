@@ -1,0 +1,4 @@
+| ``------------30--------------------------------``
+| **Hello**, this is that sample partial inclusion file!
+| ...which you can find here: :download:`partials/example-inclusion.rstinc`
+| ``------------30--------------------------------``
