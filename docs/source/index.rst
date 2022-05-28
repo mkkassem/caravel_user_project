@@ -18,7 +18,7 @@
    # SPDX-License-Identifier: Apache-2.0
    -->
 
-.. include:: ../../README.rst
+.. include:: ./quickstart.rst
 
 Caravel User Project
 ====================
