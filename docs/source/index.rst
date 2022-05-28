@@ -18,7 +18,7 @@
    # SPDX-License-Identifier: Apache-2.0
    -->
 
-.. include:: ./quickstart.rst
+.. include:: ../../README.rst
 
 .. include:: ../../example-inclusion.rstinc
 
